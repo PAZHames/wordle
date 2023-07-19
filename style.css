@@ -1,7 +1,70 @@
 :root {
-    --color1: #6976A8;
-    --color2: #6F9DB6;
-    --color3: #E1C69F;
-    --color4: #D06E5D;
-    --color5: #905678;
+    --green: #316458;
+    --red: #CC1E0E;
+    --orange: #E66F04;
+    --peach: #EE7742;
+    --background: #D8A88B;
+}
+
+body {
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+h1 {
+    font-size: 48px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--green);
+}
+
+hr {
+    width: 30%;
+    color: var(--green);
+}
+
+#board {
+    width: 350px;
+    height: 420px;
+    background-color: var(--background);
+    margin: 0 auto;
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    /* Box */
+    border: 2px solid lightgray;
+    width: 60px;
+    height: 60px;
+    margin: 2.5px;
+
+    /* Text */
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.correct {
+    background-color: var(--green);
+    color: white;
+    border-color: white ;
+}
+.present {
+    background-color: var(--orange);
+    color: white;
+    border-color: white ;
+}
+
+.absent {
+    background-color: var(--red);
+    color: white;
+    border-color: white ;
 }
