@@ -43,7 +43,7 @@ hr {
     margin: 2.5px;
 
     /* Text */
-    color: black;
+    color: var(--green);
     font-weight: bold;
     font-size: 36px;
     display: flex;
@@ -64,7 +64,7 @@ hr {
 }
 
 .absent {
-    background-color: var(--red);
+    background-color: lightgray;
     color: white;
     border-color: white ;
 }
