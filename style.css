@@ -69,3 +69,7 @@ hr {
     color: white;
     border-color: white ;
 }
+
+#answer {
+    color: var(--red);
+}
