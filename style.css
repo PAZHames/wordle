@@ -1,5 +1,6 @@
 :root {
     --green: #316458;
+    --light-green: #438274;
     --red: #CC1E0E;
     --orange: #E66F04;
     --peach: #EE7742;
@@ -53,7 +54,7 @@ hr {
 }
 
 .correct {
-    background-color: var(--green);
+    background-color: var(--light-green);
     color: white;
     border-color: white ;
 }
